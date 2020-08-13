@@ -4,11 +4,7 @@ $(function () {
     e.preventDefault();
 
   })
-  $(document).ready(function(){
-    $('html,body').animate({
-      scrollTop: $('.rigs').offset().top
-    },35000);
-  })
+  
   
   $('a[href^="#"]').on('click', function () {
     var target = $(this).attr('href');
